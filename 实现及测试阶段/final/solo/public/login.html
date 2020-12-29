@@ -1,0 +1,13 @@
+<html>
+
+<form id = "app">
+    <img src="../views/images/bg-img-8.jpg" width="72" height="72">
+    <h2 class="=form-signin0-heading">Please regist</h2>
+    <input class="form-control" v-model="userName" type="text" placeholder="用户名" @blur="blur" @focus="focus" @input="userNameLimit"> <span v-html="msg"></span><br>
+    <input class="form-control" v-model="userPassword" type="password" placeholder="密码" @input="userPasswordLimit"><br>
+    <button class="btn btn-lg btn-primary btn-block" type="button" @click="register">Regist</button>
+</form>
+
+
+</html>
+
